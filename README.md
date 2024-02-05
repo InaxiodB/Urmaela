@@ -9,7 +9,7 @@ Ruta Proyecto
 5] THINGSBOARD
 
 
-[1] M5STACK]
+--------------[1] M5STACK]---------------------
 
 
 1.4) Inicio TUTORIAL 
@@ -655,7 +655,7 @@ https://www.arduino.cc/reference/en/libraries/dht-sensor-library/
 
 
 
-[2] NB IOT]
+--------------[2] NB IOT]------------------
 
 2.1)¿Qué es ?
 NB-IoT (Narrowband IoT) es una tecnología de comunicación inalámbrica que se utiliza para conectar dispositivos IoT (Internet de las cosas) a una red móvil. Es una versión de la tecnología de comunicación IoT de baja potencia (LPWAN) y se enfoca en proporcionar una conectividad de baja velocidad y bajo consumo de energía para dispositivos IoT.
@@ -702,7 +702,7 @@ En resumen, las principales diferencias entre NB-IoT y LTE-M son la tecnología 
 *FALTA LA TARJETA NANOSIM PARA EMPEZAR A TESTEAR.
 
 
-[3] RASPBERRY]
+-----------------[3] RASPBERRY]-----------------------
 
 
 
@@ -765,9 +765,9 @@ En el primer arranque poniendo las credenciales de login del WIFI, actualizamos 
 
 
 
-[4] NODE RED & BROKER MQTT &  HIVE MQ] 
+-----------------[4] NODE RED & BROKER MQTT &  HIVE MQ]--------------------
 
-9
+
 Una vez lista la Raspberry , pasamos a instalar una serie de servicios en ella. En primer lugar NODE RED, después instalaremos el Broker MQTT, y por último crearemos e implementaremos HIVE MQ que hará la función de Servidor.
 999
 Node Red          (Para visualizar y gestionar esta parte de comunicación)
@@ -924,7 +924,7 @@ Este contenedor nos mapea dos puertos, el 1883 que es el estándar de MQTT y el 
 
 
 
-[5] THINGSBOARD]
+------------------------------[5] THINGSBOARD]-----------------------------------------
 
 
 
