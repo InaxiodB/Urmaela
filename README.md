@@ -8,48 +8,8 @@ Ruta Proyecto
 4 ] Node Red & Hive MQ
 5] THINGSBOARD
 
-Componentes Hardware & Software :
 
-HARDWARE
-Kit M5 Stack básico
-Raspberry pi 5 
-Sensor de Temperatura 
-Sensor de Ph 
-SOFTWARE
-Node-red
-HiveMq
-Things Board
- 
 [1] M5STACK]
-
-
-1.1)¿Qué es?
-M5StickC es un mini controlador, dotado del procesador ESP32. Es una plataforma apta para el desarrollo de aplicaciones IoT, fácil de usar y de código abierto.
-
-
-1.2)¿Qué se puede hacer?
-Este pequeño bloque permite desarrollar sus ideas, estimular su creatividad y ayudarle con sus creaciones de prototipos de IoT en muy poco tiempo. M5Stack-C tiene una amplia familia de dispositivos conectables que le hacen adecuado para medir temperatura, humedad, presión, luz, ritmo cardíaco, huellas dactilares, etc., así como el control de dispositivos de salida como motores de cc, motores paso a paso, servomotores, LED RGB, etc. El dispositivo puede ser programado de modo gráfico con el software UniFlow o el IDE Arduino, pudiéndose comunicar vía WiFi con plataformas como MQTT y otras gestoras de datos IoT.
- 
-modelo usado: Version Basica 
-
-1.3) Características
-
-Alimentación:5V-5.5V @500mA
-Interface:SPIx1, I2C(GROVE)x1, Uartx2, IISx1, TFx1
-TFT:320x240 Colorful TFT LCD, ILI9341
-Peso:120g
-Tamaño:54*54*17mm with bottom, 54*54*13mm only core
-Batería:150mAh @ 3.7V
-Altavoz:1W-0928
-IMU: Mpu9250 de 9 ejes.
-
-Imagen en Anexo 
-
-
-
-[M5] En primer lugar pusimos el M5 Stack en marcha con un código de arduino (PC ANDER) e hicimos la prueba de sensores con lecturas simples.
-
-*Una vez acabado el tutorial copiaremos este documento de desarrollo creado por ander.
 
 
 1.4) Inicio TUTORIAL 
