@@ -1,5 +1,6 @@
 # Urmaela
 Desarrollo proyecto fin de grado superior
+
 Ruta Proyecto
 
 1 ] M5STACK  
@@ -8,8 +9,19 @@ Ruta Proyecto
 4 ] Node Red & Hive MQ
 5] THINGSBOARD
 
+Componentes Hardware & Software :
 
---------------[1] M5STACK]---------------------
+*HARDWARE*
+Kit M5 Stack básico
+Raspberry pi 5 
+Sensor de Temperatura 
+Sensor de Ph 
+*SOFTWARE*
+Node-red
+HiveMq
+Things Board
+ 
+*----------------------------------------[1] M5STACK]--------------------------------------------------------------*
 
 
 1.4) Inicio TUTORIAL 
@@ -655,46 +667,8 @@ https://www.arduino.cc/reference/en/libraries/dht-sensor-library/
 
 
 
---------------[2] NB IOT]------------------
+*--------------------------------------------[2] NB IOT]--------------------------------------------------------*
 
-2.1)¿Qué es ?
-NB-IoT (Narrowband IoT) es una tecnología de comunicación inalámbrica que se utiliza para conectar dispositivos IoT (Internet de las cosas) a una red móvil. Es una versión de la tecnología de comunicación IoT de baja potencia (LPWAN) y se enfoca en proporcionar una conectividad de baja velocidad y bajo consumo de energía para dispositivos IoT.
-
-NB-IoT utiliza un ancho de banda estrecho y un protocolo de comunicación específico para lograr una mayor eficiencia en el uso de la batería y un mayor alcance de transmisión de datos. Esto lo convierte en una opción ideal para dispositivos IoT que no requieren una gran cantidad de datos, como sensores, dispositivos de monitoreo y dispositivos de automatización.
-
-NB-IoT también es conocido por su capacidad de operar en ambientes con señal débil, lo que lo hace ideal para aplicaciones en áreas remotas o con difícil acceso.
-2.2)Características del NB IoT
-Algunas de las características del NB-IoT incluyen:
-
-Bajo consumo de energía: para que los dispositivos IoT tengan una duración de batería prolongada.
-Baja velocidad de transmisión de datos: para aplicaciones que no requieren una gran cantidad de datos.
-Mayor alcance de transmisión de datos: para aplicaciones en áreas remotas o con señal débil.
-Bajo coste: al comparar con otras tecnologías de conectividad IoT.
-2.3)¿Para qué sirve el NB IoT?
-NB-IoT (Narrowband IoT) sirve para conectar dispositivos IoT (Internet de las cosas) a una red móvil de manera eficiente. Esta tecnología de comunicación inalámbrica se enfoca en proporcionar una conectividad de baja velocidad y bajo consumo de energía para dispositivos IoT.
-
-El NB-IoT ofrece una mejor capacidad para llegar a ambientes interiores, incluso sótanos, gracias a su diseño específico para estos entornos. Además, su bajo consumo de energía permite duraciones de batería prolongadas, con una vida útil de más de 10 años.
-
-También cuenta con herramientas avanzadas de gestión de modos de operación, como la capacidad de poner el dispositivo en modo de espera entre transmisiones, modos de bajo consumo.
-
-2.4)Casos de uso recomendados
-
-Debido a las características anteriormente mencionadas, lo hace idóneo para determinados casos de uso e industrias:
-
-Monitoreo de activos: para monitorear el rendimiento de maquinaria y equipos, como turbinas eólicas, transformadores de energía, etc.
-Automatización de edificios: para automatizar sistemas de iluminación, ventilación y calefacción en edificios y hogares inteligentes.
-Agricultura de precisión: para monitorear el clima, la humedad, la calidad del suelo y el crecimiento de cultivos.
-Transporte: para monitorear el rendimiento de vehículos, rastrear la ubicación de flotas y optimizar la eficiencia de los vehículos.
-Monitoreo de la salud: para monitorear la salud de pacientes crónicos, como pacientes con enfermedad cardíaca, diabetes, etc.
-En resumen, el NB-IoT es utilizado para conectar dispositivos IoT que no requieren una gran cantidad de datos, permitiendo una mayor eficiencia en el uso de la batería y un mayor alcance de transmisión de datos. Es una opción ideal para aplicaciones en áreas remotas o con difícil acceso y para aplicaciones que requieren bajo consumo de energía.y una rápida capacidad de reconexión
-2.5)Diferencias entre el NB IoT y LTE-M
-La diferencia principal entre NB-IoT y LTE-M es la tecnología de conectividad que utilizan. NB-IoT es una tecnología de conectividad de banda estrecha mientras que el LTE-M es una tecnología de conectividad de banda ancha.
-
-Otra diferencia importante es que NB-IoT es una tecnología de conectividad de baja velocidad y bajo consumo de energía, mientras que LTE-M es una tecnología de conectividad de velocidad y consumo de energía media. Esto significa que NB-IoT es más adecuado para aplicaciones de IoT que requieren una conectividad de baja velocidad y bajo consumo de energía, mientras que LTE-M es más adecuado para aplicaciones de IoT que requieren una conectividad de velocidad y consumo de energía medios.
-
-Además, NB-IoT tiene un mayor alcance de transmisión de datos en comparación con LTE-M, esto se debe a que NB-IoT utiliza una banda estrecha del espectro de radio, lo que permite una mayor eficiencia en el uso de la batería y un mayor alcance de transmisión de datos. Por otro lado, LTE-M utiliza una banda ancha de espectro de radio, lo que permite una mayor velocidad de transmisión de datos pero con un menor alcance.
-
-En resumen, las principales diferencias entre NB-IoT y LTE-M son la tecnología de conectividad que utilizan, la velocidad y el consumo de energía, y el alcance de transmisión de datos.
 
 
 
@@ -702,29 +676,8 @@ En resumen, las principales diferencias entre NB-IoT y LTE-M son la tecnología 
 *FALTA LA TARJETA NANOSIM PARA EMPEZAR A TESTEAR.
 
 
------------------[3] RASPBERRY]-----------------------
+*--------------------------------------------[3] RASPBERRY]------------------------------------------------------*
 
-
-
-La Raspberry Pi 5 es una nueva versión que ofrece un rendimiento y conectividad mejorados en comparación con sus predecesoras. Es una excelente alternativa para proyectos que requieren de mayor potencia gráfica, así como de procesamiento y almacenamiento.
-
-3.1)Características técnicas de la Raspberry Pi 5
-CPU Arm Cortex-A76 de 64 bits y cuatro núcleos a 2.4 GHz
-GPU VideoCore VII, compatible con OpenGL ES 3.1, Vulkan 1.2
-Salida de pantalla HDMI dual 4Kp60
-Decodificador HEVC 4Kp60
-WiFi 802.11ac de doble banda
-Bluetooth 5.0 y Bluetooth de bajo consumo (BLE)
-Interfaz de tarjeta microSD de alta velocidad compatible con el modo SDR104
-2 puertos USB 3.0, que admiten funcionamiento simultáneo de 5 Gbps
-2 puertos USB 2.0
-Gigabit Ethernet, con soporte PoE+ (requiere PoE+ HAT separado)
-Transceptores de pantalla/cámara MIPI de 2 × 4
-Interfaz PCIe 2.0 x1 para periféricos rápidos
-Conector GPIO estándar de 40 pines Raspberry Pi
-Reloj en tiempo real
-Botón de encendido
-Lo primero que hicimos fue instalar UBUNTU 23.10 en la raspberry, haciendo unos pasos previos.
 
 3.2) Inicio TUTORIAL
 
@@ -765,28 +718,16 @@ En el primer arranque poniendo las credenciales de login del WIFI, actualizamos 
 
 
 
------------------[4] NODE RED & BROKER MQTT &  HIVE MQ]--------------------
+-------------------------------------------------------[4] NODE RED & BROKER MQTT &  HIVE MQ]--------------------------------------------------------------------------
 
 
 Una vez lista la Raspberry , pasamos a instalar una serie de servicios en ella. En primer lugar NODE RED, después instalaremos el Broker MQTT, y por último crearemos e implementaremos HIVE MQ que hará la función de Servidor.
-999
+
 Node Red          (Para visualizar y gestionar esta parte de comunicación)
 Broker MQTT    (Es el servidor que gestiona los mensajes) 
 Hive MQ             (Plataforma de mensajería basada en el protocolo MQTT)
 
 4.1) Inicio TUTORIAL
-
-4.1.1) INSTALACIÓN NODE RED
-
-¿ Qué es y para qué sirve ?
-
-Node-RED es una herramienta visual de programación de código abierto que facilita la creación de flujos de trabajo (flows) para la automatización de tareas y el intercambio de datos entre diferentes servicios y dispositivos. Aquí tienes una explicación sencillo.
-
-
-
-
-
-
 
 Cómo instalar y configurar Node-RED en Ubuntu 20.04
 
@@ -841,6 +782,12 @@ Los "temas" son como canales de comunicación. Los dispositivos se conectan a un
 Esquema básico de un sistema MQTT (créditos: IBM)
 
 
+
+
+
+
+
+
 Cómo instalar y configurar Broker  Mosquitto
 
 
@@ -865,6 +812,7 @@ Lo parámetro necesarios son muy simples:
 -h localhost: Especifica dónde está el servidor broker. Si no se indica, por defecto es localhost
 - 1883: Puerto de conexión. Por defecto es 1883
 - t "casa/prueba": El Topic a donde nos suscribimos
+
 El topic es la parte más fundamental y no es necesario darla de alta en ningún sitio. Solamente indicarla. Si no existe, o más bien si nadie publica en ella, lo peor que puede pasar es que el suscriptor nunca recibirá mensajes de nadie.
 Es muy recomendable organizar los topics en forma de árbol, especialmente si vas a tener muchos dispositivos ya que de esa forma quedará todo mucho más claro.
 Imagínate que pones sensores de temperatura en toda tu casa. Una forma de organizar los topics sería por ejemplo:
@@ -887,22 +835,29 @@ Los parámetros utilizados son básicamente los mismos que ya hemos visto con mo
 Con esto se enviará el mensaje al broker y a su vez lo recibirán todos los dispositivos suscritos al topic, como la primera consola que dejaste abierta antes y lo mostrará tal que así:
 
 Fichero de configuración de Mosquitto
-Lo que hemos hecho es una instalación de Mosquitto con todos los parámetros por defecto y con eso vemos que funciona perfectamente. Pero Mosquitto permite configurar muchas más cosas. 
-Para eso y como casi todo en un entorno Linux, tenemos disponible un fichero de configuración que está localizado en /etc/mosquitto/mosquitto.conf
+Para comprobar que esta okey, y como casi todo en un entorno Linux, tenemos disponible un fichero de configuración que está localizado en /etc/mosquitto/mosquitto.conf
 Ese fichero guarda toda la configuración del servidor Broker Mosquitto y podremos ajustar los parámetros a nuestro gusto. 
-Dado que la configuración es muy extensa y está bien documentada, no entraré en muchos detalles, pero debes tener en cuenta que por defecto Mosquitto permite a cualquiera publicar topics, es decir, es un servicio público sin restricciones. 
-Eso se puede cambiar haciendo que requiera a los clientes una contraseña. De esta forma tu servidor MQTT será un poco más seguro. Eso y mucho más puedes ver la documentación de Mosquitto.
-Ahora que ya tenemos todo instalado, configurado y sabemos que funciona, en la siguiente página veremos un ejemplo práctico de IoT con Arduino usando todo el sistema.
-4.3)HIVEHiveMQ
-
-Es un broker de mensajes que implementa el protocolo MQTT muy usado en aplicaciones de Internet Of Things(IoT). Este no es el primer vídeo y post sobre un broker MQTT, en este enlace tenéis disponible el que hicimos con Mosquito y Python. MQ
 
 
-HiveMQ nos da dos posibilidades , la primera crea un servidor público , y que la información sea pública , la otra es que el servidor sea siendo público , pero la información privada , eso lo hacemos creando un usuario y contraseña en la opción “access management” luego  añadimos nuestro usuario en “web client” , nos suscribimos a un topic , el mismo que tiene que estar en código arduino , ya en el node red , en nuestro topic tenemos que ir a seguridad y poner nuestro usuario y contraseña , el mismo que creamos en el access management y web client , con eso ya podemos recibir datos que nos llegue en el M5 STACK y visualizarlo en el nodo red.
+
+
+
+
+4.3)HiveMQ
+
+Es un broker de mensajes que implementa el protocolo MQTT muy usado en aplicaciones de Internet Of Things(IoT). 
+
+
+HiveMQ nos da dos posibilidades : 
+1ª la primera crea un servidor público , y que la información sea pública 
+ 2ª la otra es que el servidor sea siendo público , pero la información privada , eso lo hacemos creando un usuario y contraseña en la opción “access management” luego  añadimos nuestro usuario en “web client” , nos suscribimos a un topic , el mismo que tiene que estar en código arduino , ya en el node red , en nuestro topic tenemos que ir a seguridad y poner nuestro usuario y contraseña , el mismo que creamos en el access management y web client , con eso ya podemos recibir datos que nos llegue en el M5 STACK y visualizarlo en el nodo red.
+
 4.4)¿Qué es un bróker de mensajería?
-La forma en que se comunican las aplicaciones se está convirtiendo en un desafío cada vez mayor. El uso de middleware de mensajería simplifica este desafío y permite una infraestructura de comunicaciones común que crece y se adapta para cumplir con las condiciones más exigentes. Pero la comunicación puede suceder de muchas formas diferentes y la forma en que el middleware de mensajería proporciona esa comunicación no es diferente.
 
-Un método de comunicación utilizado por el middleware de mensajería es un modelo basado en servidores que utiliza un bróker de mensajería. Con un bróker de mensajería, la aplicación fuente (productor) envía un mensaje a un proceso del servidor que podrá proporcionar clasificación de datos, ruteo, traducción de mensajes, persistencia y entrega a todos los respectivos destinatarios (consumidores). La característica que define a un bróker de mensajería es que el bróker en sí es un servicio discreto. Los productores y consumidores se comunican con el bróker mediante protocolos estándares o patentados. El bróker de mensajería generalmente proporciona todo el manejo del estado y el seguimiento de los clientes, de modo que las aplicaciones individuales no requieren asumir esta responsabilidad, y la complejidad de la entrega de mensajes está integrada en el propio bróker de mensajería.
+Con un bróker de mensajería, la aplicación fuente (productor) envía un mensaje a un proceso del servidor que podrá proporcionar clasificación de datos, ruteo, traducción de mensajes, persistencia y entrega a todos los respectivos destinatarios (consumidores).
+
+El bróker de mensajería generalmente proporciona todo el manejo del estado y el seguimiento de los clientes, de modo que las aplicaciones individuales no requieren asumir esta responsabilidad, y la complejidad de la entrega de mensajes está integrada en el propio bróker de mensajería.
+
 
 Existen dos formas básicas de comunicación con un bróker de mensajería:
 
@@ -911,20 +866,19 @@ Punto a punto (colas)
 
 
 4.5)Publicar y suscribir mensajes
-En un sistema de mensajería de publicación y suscripción, los productores envían mensajes sobre un tema. En este modelo, el productor se conoce como publicador y el consumidor se conoce como suscriptor. Uno o varios publicadores pueden publicar sobre el mismo tema, y muchos suscriptores pueden recibir un mensaje de uno o varios publicadores. Los suscriptores se suscriben a temas y todos los mensajes publicados sobre el tema son recibidos por todos los suscriptores sobre el tema. Este modelo proporciona una entrega simple impulsada por el interés en función de los temas a los que se suscriben las aplicaciones.
+En un sistema de mensajería de publicación y suscripción, los productores envían mensajes sobre un tema. En este modelo, el productor se conoce como publicador y el consumidor se conoce como suscriptor. Uno o varios publicadores pueden publicar sobre el mismo tema, y muchos suscriptores pueden recibir un mensaje de uno o varios publicadores. 
+
+Los suscriptores se suscriben a temas y todos los mensajes publicados sobre el tema son recibidos por todos los suscriptores sobre el tema. Este modelo proporciona una entrega simple impulsada por el interés en función de los temas a los que se suscriben las aplicaciones.
 4.6)Comunicación punto a punto
-Las comunicaciones punto a punto en su forma más simple tienen un productor y un consumidor. Este estilo de mensajería generalmente utiliza una cola para almacenar los mensajes enviados por el productor hasta que el consumidor las reciba. El productor de mensajes envía el mensaje a la cola; el consumidor de mensajes recupera los mensajes de la cola y envía una confirmación de que se recibió el mensaje. Más de un productor podrá enviar mensajes a la misma cola y más de un consumidor podrá recuperar mensajes de la misma cola. Cuando se utilizan varios consumidores, cada consumidor normalmente recibe una parte del flujo de mensajes para permitir el procesamiento simultáneo.
+Las comunicaciones punto a punto en su forma más simple tienen un productor y un consumidor. Este estilo de mensajería generalmente utiliza una cola para almacenar los mensajes enviados por el productor hasta que el consumidor las reciba. 
+El productor de mensajes envía el mensaje a la cola; el consumidor de mensajes recupera los mensajes de la cola y envía una confirmación de que se recibió el mensaje. 
 
-Brókers de mensajería basados en servidores
-Los brókers de mensajería basados en servidores tienen muchas ventajas, incluido el procesamiento centralizado, la distribución de mensajes centralizada y la persistencia de datos centralizada. Los ejemplos incluyen muchos brókers de mensajería patentados, implementaciones de Java Message Service (JMS) y productos de código abierto como Apache Kafka, Apache Pulsar y Eclipse Mosquitto.
-
-En algunos casos se necesita un modelo de comunicaciones descentralizado. Este enfoque "sin bróker" o de par a par generalmente proporciona un mecanismo para admitir la comunicación directa entre aplicaciones para casos de uso donde se requiere una latencia muy baja.
 4.7)Puertos 1883  y 8880
 Este contenedor nos mapea dos puertos, el 1883 que es el estándar de MQTT y el que se va a usar para publicar y suscribirse a 'topics' y el puerto 8080 donde HiveMQ provee de un 'dashboard' donde monitorizar el servidor(El user/password don admin/hivemq).
 
 
 
-------------------------------[5] THINGSBOARD]-----------------------------------------
+*--------------------------------------------------------------[5] THINGSBOARD]-----------------------------------------------------------*
 
 
 
@@ -951,4 +905,41 @@ Almacenamiento y Visualización de Datos: Almacena datos de dispositivos y propo
 
 - Licencia de Código Abierto: Things Board se distribuye bajo la licencia de código abierto Apache 2.0, lo que significa que puedes acceder al código fuente, modificarlo y distribuirlo de acuerdo con los términos de esa licencia.
 5.3) Inicio TUTORIAL
+ B R Y A N  empieza aqui
+
+
+
+
+
+
+[6] PROBLEMAS Y SOLUCIONES]
+
+1er problema
+
+Cuando ya tenemos instalado node red y cambiamos de red , no se inicia por estar en un red diferente.
+/comando para iniciar node red / 
+node-red-start   
+	
+Solución
+Cuando estemos en la nueva red , en la consola comando de ubuntu ponemos el siguiente comando:
+
+ sudo systemctl enable nodered.service
+
+//sudo para iniciar como administrador 
+ 
+El comando en si es que se inicie node red al iniciar o encender el equipo 
+sin necesidad de  usar “ node-red-star”
+
+Como dato ,los nodos que pusimos en el nodered, con la configuración  se quedan guardados
+
+2do problema 
+Teniendo los nodos creados en nodered y ponerle el topic los datos no llegaban
+ 
+Solución
+HiveMQ nos da dos posibilidades , la primera crea un servidor público , y que la información sea pública , la otra es que el servidor sea siendo público , pero la información privada , eso lo hacemos creando un usuario y contraseña en la opción “access management” .
+Luego  añadimos nuestro usuario en “web client” , nos suscribimos a un topic , el mismo que tiene que estar en código arduino , ya en el node red , en nuestro topic tenemos que ir a seguridad y poner nuestro usuario y contraseña , el mismo que creamos en el access management y web client , con eso ya podemos recibir datos que nos llegue en el M5 STACK y visualizarlo en el nodo red.
+
+
+[7] Anexo]
+
 
